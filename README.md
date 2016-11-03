@@ -1,10 +1,9 @@
 # lazy-vue
 
-<a href="https://gocanto.github.io/google-autocomplete/"><img src="https://img.shields.io/badge/online-demo-green.svg" alt="Demo"></a>
-<a href="https://www.npmjs.com/package/google-autocomplete-vue"><img src="https://img.shields.io/npm/v/google-autocomplete-vue.svg" alt="Version"></a>
-<a href="https://www.npmjs.com/package/google-autocomplete-vue"><img src="https://img.shields.io/npm/dt/google-autocomplete-vue.svg" alt="Downloads"></a>
-<a href="https://github.com/gocanto/google-autocomplete/blob/master/LICENSE.md"><img src="https://img.shields.io/npm/l/easiest-js-validator.svg" alt="License"></a>
-<a href="https://github.com/gocanto/google-autocomplete/tree/vue-1"><img src="https://img.shields.io/badge/Vue%201.*-passed-orange.svg" alt="Vue1.*"></a>
+<a href="https://gocanto.github.io/lazy-vue/"><img src="https://img.shields.io/badge/online-demo-green.svg" alt="Demo"></a>
+<a href="https://www.npmjs.com/package/lazy-vue"><img src="https://img.shields.io/npm/v/lazy-vue.svg" alt="Version"></a>
+<a href="https://www.npmjs.com/package/lazy-vue"><img src="https://img.shields.io/npm/dt/lazy-vue.svg" alt="Downloads"></a>
+<a href="https://github.com/gocanto/lazy-vue/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/lazy-vue.svg" alt="License"></a>
 
 
 lazy-vue is the easiest way to get a lazy image loader working within your vue projects. It is meant to be as simplest as possible,
