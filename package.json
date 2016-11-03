@@ -1,0 +1,34 @@
+{
+  "license": "MIT",
+  "version": "1.0",
+  "author": "Gustavo Ocanto",
+  "name": "lazy-vue",
+  "main": "dist/Components/index.js",
+  "description": "The easiest lazy image loader for Vue",
+  "homepage": "https://github.com/gocanto/lazy-vue",
+  "scripts": {},
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gocanto/lazy-vue.git"
+  },
+
+  "keywords": [
+    "vue",
+    "lazy",
+    "image"
+  ],
+
+  "devDependencies": {
+    "vue": "^2.*",
+    "gulp": "^3.*",
+    "gulp-notify": "^2.*",
+    "laravel-elixir": "6.0.0-11",
+    "laravel-elixir-vue-2": "^0.2.0",
+    "laravel-elixir-webpack-official": "^1.0.6"
+  },
+
+  "dependencies": {
+    "json-loader": "^0.5.4"
+  }
+}

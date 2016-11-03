@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>lazy-vue - demo</title>
+	<meta charset="utf-8">
+	<meta name="description" content="The easiest lazy image loader for Vue.">
+	<meta name="author" content="Gustavo Ocanto - gustavoocanto@gmail.com">
+	<meta http-equiv="Content-Language" content="en" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.1/css/bulma.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <style>
+        .is-centered {
+            display: flex;
+            justify-content: center;
+            align-items: stretch;
+            margin: auto;
+        }
+
+        .is-rounded {
+            border-radius: 3px
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <section class="hero is-light">
+        <div class="hero-head">
+            <nav class="nav">
+                <div class="nav-left">
+                    <a href="#" class="nav-item is-brand">
+                        <h1 class="title">The easiest lazy image loader for Vue</h1>
+                    </a>
+                </div>
+                <div id="nav-menu" class="nav-right nav-menu">
+                    <div class="nav-item"><a href="https://github.com/gocanto/lazy-vue" target="_blank" class="nav-item"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;DOCUMENTATION</a></div>
+                    <div class="nav-item"><a href="http://g-ocanto.com/" target="_blank" class="nav-item"><i class="fa fa-info" aria-hidden="true"></i>&nbsp;AUTHOR</a></div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="hero-body">
+            <div class="container">
+                <h2 class="subtitle">
+                    A small plugin for those who <strong>do not like</strong> anything complicated..
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <div class="box is-flex-mobile" id="demo" >
+        <div class="columns is-gapless">
+            <div class="column" v-for="avatar in images">
+                <figure class="image is-48x48 is-centered">
+                    <img src="demo/images/nopic.png" v-lazy = "avatar" class="is-rounded" >
+                </figure>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="../dist/demo.js"></script>
+
+</body>
+</html>
