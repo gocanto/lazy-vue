@@ -11,16 +11,17 @@ so you do not have to be pulling complicated libraries to accomplish such a task
 
 
 
-
-
 # Requirements
 You will have to install vue
 
 ```js
 npm install vue
 ```
+
+
 # Installation
-To install this package you just need to open your console line and type ```npm install lazy-vue --save```. If there is a problem during the installation, you can try again using the ```force param```, as so ```npm i -f lazy-vue```
+To install this package you just need to open your console line and type ```npm install lazy-vue --save```. If there is a problem during the installation, trying again using the ```force param```, as so ```npm i -f lazy-vue```
+
 
 
 # Gettings started
@@ -33,7 +34,9 @@ require('lazy-vue');
 
 Take a look at the <a href="https://github.com/gocanto/lazy-vue/blob/master/src/js/demo/main.js" target="_blank">example</a> published.
 
-# Implementing the directive in my HTML code
+
+
+# Implementing the directive in your HTML code
 
 ```HTML
 <div v-for="avatar in images">
@@ -44,14 +47,17 @@ Take a look at the <a href="https://github.com/gocanto/lazy-vue/blob/master/src/
 See the example <a href="https://github.com/gocanto/lazy-vue/blob/master/demo/index.html#L58-L66" target="_blank">here</a>
 
 
+
 # Contributing
 
 Please feel free to fork this package and contribute by submitting a pull request to enhance the functionalities.
 
 
+
 # License
 
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
+The MIT License (MIT).
+
 
 
 # How can I thank you?
